@@ -43,6 +43,21 @@ If the git repository does not exist, the script will do it for you and ask for 
 ```
 
 
+## Test
+
+You can see the content of a sketch repository here: <https://github.com/loup-studio/gik-test>
+
+You can run the test script in the `test/` folder, using the `test.sh` script:
+
+```
+./test.sh [local|remote] [reset|] [push|pull]
+```
+
+ * `local|remote`: use `git-base.sh` from the current project or from latest github release
+ * `reset`: optional, reset the remote origin branch before running the real script
+ * `push|pull`: params for the real script
+
+
 ## Limitations
 
  * Merge conflicts must be handled manually

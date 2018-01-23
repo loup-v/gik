@@ -139,6 +139,7 @@ function perform_push()
     rm .gitignore &>/dev/null
     echo ".DS_Store" >> .gitignore
     echo "*.sketch" >> .gitignore
+    echo ".gik.sh" >> .gitignore
     git add .gitignore
 
     echo "create initial commit"
