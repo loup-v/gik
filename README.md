@@ -45,9 +45,7 @@ If the git repository does not exist, the script will do it for you and ask for 
 
 ## Test
 
-You can see the content of a sketch repository here: <https://github.com/loup-studio/gik-test>
-
-You can run the test script in the `test/` folder, using the `test.sh` script:
+See `test/test.sh`, with the following usage:
 
 ```
 ./test.sh [local|remote] [reset|] [push|pull]
@@ -56,6 +54,8 @@ You can run the test script in the `test/` folder, using the `test.sh` script:
  * `local|remote`: use `git-base.sh` from the current project or from latest github release
  * `reset`: optional, reset the remote origin branch before running the real script
  * `push|pull`: params for the real script
+
+Example of a repository managed by Gik: <https://github.com/loup-studio/gik-test>
 
 
 ## Limitations
