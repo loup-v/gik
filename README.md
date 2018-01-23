@@ -14,10 +14,19 @@ Rather than pushing .sketch binaries to Git, Gik allows to automatically track J
  * Ground for visual diff between commits
 
 
-## Usage
+## Installation
 
 Copy the file `gik.sh` to your repository that contain the Sketch files to track.  
 This file acts like a proxy to the real `gik-base.sh` and allows seamless updates of the script when necessary.
+
+You can download `gik.sh` using the following one liner.  
+Open your terminal, go to the project directory and run:
+
+```
+curl https://raw.githubusercontent.com/loup-studio/gik/master/gik.sh -o gik.sh && chmod +x gik.sh
+```
+
+## Usage
 
 ### Push
 
