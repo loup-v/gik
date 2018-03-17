@@ -20,7 +20,7 @@ cp ../gik.sh .
 if [[ $1 == "local" ]]; then
   cp ../../gik-base.sh .gik.sh
 else
-  curl https://raw.githubusercontent.com/les-loups/gik/master/gik.sh -o .gik.sh >/dev/null || exit 1
+  curl https://raw.githubusercontent.com/loup-v/gik/master/gik.sh -o .gik.sh >/dev/null || exit 1
 fi
 
 chmod +x .gik.sh

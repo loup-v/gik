@@ -23,7 +23,7 @@ You can download `gik.sh` using the following one liner.
 Open your terminal, go to the project directory and run:
 
 ```
-curl https://raw.githubusercontent.com/loup-studio/gik/master/gik.sh -o gik.sh && chmod +x gik.sh
+curl https://raw.githubusercontent.com/loup-v/gik/master/gik.sh -o gik.sh && chmod +x gik.sh
 ```
 
 ## Usage
@@ -55,7 +55,7 @@ See `test/test.sh`, with the following usage:
  * `reset`: optional, reset the remote origin branch before running the real script
  * `push|pull`: params for the real script
 
-Example of a repository managed by Gik: <https://github.com/loup-studio/gik-test>
+Example of a repository managed by Gik: <https://github.com/loup-v/gik-test>
 
 
 ## Limitations
